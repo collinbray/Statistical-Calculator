@@ -1,0 +1,24 @@
+h2{
+    color: deepskyblue;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    padding: 10px 2px;
+    width: 200px;
+    height: .1px;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    padding: 10px 2px;
+    width: 300px;
+    height: 50px;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid black;
+}

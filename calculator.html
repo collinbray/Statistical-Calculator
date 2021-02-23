@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="calcscript.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <title>Statistical Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<h2>Statistical Calculator</h2>
+
+<form onSubmit="return performStatistics();">
+
+    <label for="input">User Input:</label><br>
+    <textarea id="input" name="input" rows="4" cols="50" placeholder="Enter 5-20 numbers separated by single spaces whose values range between 1-100" required></textarea><br>
+
+    <button type="submit" value="Submit">Submit</button>
+    <button type="reset" value="Reset">Reset</button><br><br>
+
+    <label for="max">Max:</label><br>
+    <input type="text" id="max" name="max" readonly><br><br>
+
+
+    <label for="mean">Mean:</label><br>
+    <input type="text" id="mean" name="mean" readonly><br><br>
+
+    <label for="median">Median:</label><br>
+    <input type="text" id="median" name="median" readonly><br><br>
+
+    <label for="min">Min:</label><br>
+    <input type="text" id="min" name="min" readonly><br><br>
+
+    <label for="mode">Mode:</label><br>
+    <input type="text" id="mode" name="mode" readonly><br><br>
+
+    <label for="stdev">Std Dev:</label><br>
+    <input type="text" id="stdev" name="stdev" readonly><br><br>
+
+    <label for="sum">Sum:</label><br>
+    <input type="text" id="sum" name="sum" readonly><br><br>
+
+    <label for="variance">Variance:</label><br>
+    <input type="text" id="variance" name="variance" readonly><br><br>
+
+</form>
+
+</body>
+</html>
